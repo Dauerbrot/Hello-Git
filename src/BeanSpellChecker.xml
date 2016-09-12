@@ -3,7 +3,16 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
-
 	
+	<!-- Spellchecker -->
+	<bean id="spellcheck" class="com.tutorial.spellChecker.Intiiater"/>
+	<!-- Text-Editor -->
+	<bean id="newSpellcheckinit" class="com.tutorial.spellChecker.ObjectHolder">
+		<constructor-arg>
+			<value>23</value>
+		</constructor-arg>
+		
+		<constructor-arg ref="spellcheck"/>
+	</bean>
     
 </beans>

@@ -7,6 +7,6 @@ public class Intiiater {
 	}
 	
 	public void spellCheck(){
-		System.out.println("Spellchecking");
+		System.out.println("Spellchecking completed");
 	}
 }

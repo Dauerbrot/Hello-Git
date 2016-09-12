@@ -6,4 +6,14 @@ public class objectHolder {
 	public objectHolder(int tag){
 		this.tag = tag;
 	}
+
+	public int getTag() {
+		return tag;
+	}
+
+	public void setTag(int tag) {
+		this.tag = tag;
+	}
+	
+	
 }

@@ -9,7 +9,10 @@ public class HelloInitDestroy {
 		value = 12.303434f;
 	}
 	
-	public void destroy(){}
+	public void destroy(){
+		value = 0;
+		message  = null;
+	}
 
 	public String getMessage() {
 		return message;

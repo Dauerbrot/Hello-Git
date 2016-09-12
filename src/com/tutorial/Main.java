@@ -3,6 +3,8 @@ package com.tutorial;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import com.tutorial.spellChecker.spellCheckerModule;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -31,6 +33,9 @@ public class Main {
 		HelloInitDestroy initTest = (HelloInitDestroy) context.getBean("initdestroy");
 		
 		System.out.println(initTest.getMessage());
+		
+		
+		spellCheckerModule module1 = (spellCheckerModule) context.getBean("spellcheckerModule");
 	}
 
 }

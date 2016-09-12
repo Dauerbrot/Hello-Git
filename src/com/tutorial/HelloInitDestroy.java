@@ -28,4 +28,8 @@ public class HelloInitDestroy {
 	}
 	
 	
+	public void changeValueToStandard(){
+		this.value = 123123.34f;
+	}
+	
 }

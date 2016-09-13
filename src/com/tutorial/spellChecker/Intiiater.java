@@ -8,5 +8,6 @@ public class Intiiater {
 	
 	public void spellCheck(){
 		System.out.println("Spellchecking completed");
+		System.out.println("Successfull wirered with two different beans and a constructor by Spellmodule");
 	}
 }
